@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+li [class^="glyphicon-bigger"]:before,
+li [class*=" glyphicon-bigger"]:before {
+    display: inline-block;
+    font-size: 2.25em;
+    text-align: center;
+}
+/* bootstrap的[modal]插件显示时,页面body的[overflow-hidden]导致画面跳动问题 */
+.modal-open {
+	overflow: auto !important;
+}
+
+.cma-col-common {
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+/***----- Extra small devices Phones (<768px)==Class prefix(.col-xs-) -----***/
+@media (min-width: 480px) and (max-width: 767px) {
+    /*上部标题区域*/
+    #header .site-header p.site-name{
+        font-size: 22px !important;
+    }
+}
+
+/***----- Small devices Tablets (≥768px & <992px)==Class prefix(.col-sm-) -----***/
+@media (min-width: 768px) and (max-width: 991px) {
+    #center .guide-user .expandCollapse .expand-collapse {
+        display: block !important;
+    }
+}
+
+/***----- Medium devices Desktops (≥992px & <1200px)==Class prefix(.col-md-) -----***/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/***----- Extra small devices Phones (<480px)==Class prefix(.col-xs-) -----***/
+@media only screen and (max-width: 479px) {
+    /*上部标题区域*/
+    #header .site-header p.site-name{
+        font-size: 12px !important;
+    }
+    /*H5课件制作区域*/
+    #h5page_content {
+        height: 2000px !important;
+    }
+    #h5page_content .left {
+        height: 300px !important;
+    }
+    #h5page_content .middle {
+        height: 850px !important;
+    }
+    #h5page_content .right {
+        height: 850px !important;
+    }
+}
+
+/***----- Extra small devices Phones (<768px)-----***/
+@media only screen and (max-width: 767px) {
+    #center .guide-menu .panel-title>a>span.title {
+        margin: 0px 35%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #center .guide-user .collapse-hidden {
+        display: none !important;
+	}
+}
+
+/***----- Extra small devices Phones,Large devices Desktops (≥1200px) -----***/
+@media only screen and (max-width: 1200px) {
+    
+}
+
+/***----- Large devices Tablets && Desktops (≥768px)==Class prefix(.col-md-/.col-lg-) -----***/
+@media only screen and (min-width: 768px) {
+	.modal-dialog {
+	    width: 900px;
+	}
+	#header .site-header .site-set .navbar-right {
+	    margin-right: 15px;
+	}
+    #center .side-panel {
+        width: 12.66666667%;
+    }
+    #center .cental-page {
+        width: 87.33333333%;
+    }
+}
+
+/***----- Small devices Tablets, Medium devices Desktops -----***/
+@media only screen and (min-width: 1200px) {
+    #center .guide-menu .panel-title>a>span.title {
+        margin: 0px 18%;
+        width: 30%;
+	    display: inline-block;
+	    min-width: 50px;
+	    text-align: center;
+    }
+}

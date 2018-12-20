@@ -1,0 +1,18 @@
+// https://developer.mozilla.org/zh-CN/docs/Web/Manifest
+{
+  "name": "ODC Off-Line Management Service",
+  "short_name": "ODC Ekmap Management",
+  "lang": "en-US", // discription for name|short_name
+  "icons": [{
+    "src": "favicon.ico",
+    "sizes": "64x64 32x32 24x24 16x16",
+    "type": "image/x-icon"
+  }],
+  "start_url": ".",
+  "author": "ODC",
+  "dir": "auto ", // ltr (由左到右) rtl (由右到左)
+  "display": "standalone", // fullscreen | minimal-ui | browser(open in tab or new window)
+  "description": "An Off-Line Management Service.",
+  "theme_color": "#000000",
+  "background_color": "#ffffff" // only work during loading time.
+}

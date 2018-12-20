@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+#hashModalPage .modal-dialog {
+	width: 80%;
+}
+
+#hashModalPage .modal-body {
+    width: 100%;
+}

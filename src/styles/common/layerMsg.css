@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+#layerMsg {
+    z-index: 1060;
+}
+
+#layerMsg .modal-dialog {
+    margin-top: 20% !important;
+}
+
+#layerMsg .modal-footer .btn.cancel {
+}
+
+#layerMsg .modal-footer .btn.confirm {
+}

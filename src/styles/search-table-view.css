@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+
+/* 在modal控件中显示时Start */
+.modal .modal-dialog .content_search {
+	min-height: auto;
+    height: 600px;
+    overflow-y: auto;
+}
+/* 在modal控件中显示时 End*/
+
+.content_search {
+    min-height: 850px;
+    width: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content_search .conditions {
+    height: 90px;
+    margin: 5px;
+    border: 2px solid #32a949;
+}
+
+.content_search .conditions.red {
+    border-color: #df2222;
+}
+
+.content_search .conditions.two {
+    height: 138px;
+}
+
+.content_search .conditions .label {
+	text-align: left;
+	background-color: #32a949;
+}
+
+.content_search .conditions .label.red {
+    background-color: #df2222;
+}
+
+.content_search .conditions .label.blue {
+    background-color: #4a8bff;
+}
+
+.content_search .conditions .label>span {
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.content_search .conditions .input-group {
+	float: left;
+    margin-top: 10px;
+}
+
+.content_search .conditions .input-group .input-group-btn .search,
+.content_search .conditions .input-group .input-group-btn .clear,
+.content_search .input-group .input-group-btn .setAll,
+.content_search .input-group .input-group-btn .unsetAll {
+    margin-right: 25px;
+}
+
+.content_search .search-result {
+    margin: 5px;
+    border: 2px solid #feb74a;
+}
+
+.content_search .search-result.blue {
+	border-color: #4a8bff;
+}
+
+.content_search .search-result .panel {
+    margin: 0px;
+}
+
+.content_search .search-result .panel-heading {
+	background-image: none;
+    background-color: #feb74a;
+}
+
+.content_search .search-result .panel-heading.blue {
+    background-color: #4a8bff;
+}
+
+.content_search .search-result .dataTables_wrapper {
+	margin: 42px 8px 0px 8px;
+}
+
+.content_search .search-result .dataTables_wrapper table th.all2check {
+	padding: 0px;
+	margin: 0px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content_search .search-result .dataTables_wrapper>div.row:nth-child(1) {
+    margin-top: -46px;
+    margin-left: 120px;
+}
+
+/*课程评论页面*/
+.content_search .search-result.pos-abs .dataTables_wrapper>div.row:nth-child(1) {
+    position: absolute;
+}
+
+.content_search .search-result .dataTables_wrapper .dataTables_scrollHead .dataTables_scrollHeadInner {
+    /* width: 100% !important; */
+    background-color: #cbcbcb;
+}
+
+.content_search .search-result .dataTables_wrapper .dataTables_info {
+    height:40px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.content_search .search-result .dataTables_wrapper .dataTables_paginate {
+	height:40px;
+	line-height: 40px;
+	text-align: left;
+	margin-left: 10px;
+    margin-top: 16px;
+}
+
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc,
+table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>th.sorting_disabled,
+table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc,
+table.dataTable thead>tr>td.sorting, table.dataTable thead>tr>th.header {
+	padding-right: 0px !important;
+	text-align: center;
+}

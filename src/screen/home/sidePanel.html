@@ -1,0 +1,271 @@
+<div class="cma-col-common col-xs-12 side-panel sidebar navbar navbar-inverse">
+	<!-- <div class="guide"></div> -->
+	<div class="guide-user row text-nowrap">
+		<div class="col-md-4 collapse-hidden"></div>
+		<div class="expandCollapse col-md-3">
+			<button type="button" class="expand-collapse navbar-toggle visible-md visible-lg hidden-sm hidden-xs">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#guide_tablist" aria-expanded="true"
+				aria-controls="navbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	</div>
+	<div class="guide-menu row panel-group collapse in" role="guide_tablist" id="guide_tablist"
+		aria-expanded="true">
+		<ul class="hidden glyphicon-menus">
+          <li data-icon="home_mgr home2serverStats course2monitorPreview">glyphicon-home</li>
+          <li data-icon="page_hashId_one">glyphicon-list</li>
+          <li data-icon="page_hashId_two">glyphicon-education</li>
+          <li data-icon="page_hashId_three">glyphicon-th</li>
+          <li data-icon="page_hashId_four">glyphicon-comment</li>
+          <li data-icon="page_hashId_five">glyphicon-bell</li>
+          <li data-icon="page_hashId_six">glyphicon-tasks</li>
+          <li data-icon="page_hashId_seven">glyphicon-user</li>
+          <li data-icon="page_hashId_eight">glyphicon-cog</li>
+          <li data-icon="page_hashId_nine">glyphicon-leaf</li>
+		</ul>
+		<ul data-menus>
+		<li class="hidden panel panel-default">
+            <div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="menu_id">
+                <h4 class="panel-title overflow-nowrap">
+                    <a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+                        aria-expanded="true">
+                        <i class="glyphicon"></i>
+                        <span class="title collapse-hidden collapsed-mouse-enter-heading-span">模型-主菜单</span>
+                        <span class="arrow glyphicon collapse-hidden"></span>
+                    </a>
+                </h4>
+            </div>
+            <div id="example_child" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+                role="tabpanel" aria-labelledby="menu_id" aria-expanded="true">
+                <ul class="list-group">
+                    <li data-link="sub_menu_id" class="list-group-item">模型-子菜单</li>
+                </ul>
+            </div>
+        </li>
+<!-- 		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="home_mgr">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#homeMenuList" aria-expanded="true" aria-controls="homeMenuList">
+						<i class="title glyphicon glyphicon-home"></i>
+						<i class="glyphicon glyphicon-list"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">首页</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="homeMenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="home_mgr" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="home2serverStats" class="list-group-item">主机监控</li>
+					<li data-link="course2monitorPreview" class="list-group-item">监控预览</li>
+					<li data-link="course2monitor" class="list-group-item">课程监控</li>
+					<li data-link="course2taskMonitor" class="list-group-item">任务监控</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_one">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#h5MenuList" aria-expanded="true" aria-controls="h5MenuList">
+						<i class="glyphicon glyphicon-list"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">在线课件</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="h5MenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_one" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="h5make" class="list-group-item">H5课件制作</li>
+					<li data-link="h5search" class="list-group-item">H5课件查询</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="knowage">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-link="page_hashId_two">
+						<i class="glyphicon glyphicon-education"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">知识点</span>
+						<span class="arrow glyphicon"></span>
+					</a>
+				</h4>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_three">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#courseMenuList" aria-expanded="true"
+						aria-controls="courseMenuList">
+						<i class="glyphicon glyphicon-th"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">课程管理</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="courseMenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_three" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="course2create" class="list-group-item">课程创建</li>
+					<li data-link="course2live" class="list-group-item">直播课程</li>
+					<li data-link="course2search" class="list-group-item">课程查询</li>
+					<li data-link="course2center" class="list-group-item">课程中心</li>
+					<li data-link="course2liveMgr" class="list-group-item">直播管理</li>
+					<li data-link="course2share" class="list-group-item">课程分享</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab"
+				id="page_hashId_four">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse"
+						data-parent="#guide_tablist" href="#commentMenuList"
+						aria-expanded="true" aria-controls="commentMenuList"> <i
+						class="glyphicon glyphicon-comment"></i> <span
+						class="title collapse-hidden collapsed-mouse-enter-heading-span">评论管理</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="commentMenuList"
+				class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_four" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="comment2course" class="list-group-item">课程评论</li>
+					<li data-link="comment2training" class="list-group-item">培训评论</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_five">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#newsMenuList" aria-expanded="true"
+						aria-controls="newsMenuList">
+						<i class="glyphicon glyphicon-bell"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">通知发布</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="newsMenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_five" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="notification2Publish" class="list-group-item">课程通知发布</li>
+					<li data-link="notification2System" class="list-group-item">系统通知发布</li>
+					<li data-link="notification2Search" class="list-group-item">通知发布管理</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_six">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#taskMenuList" aria-expanded="true"
+						aria-controls="taskMenuList">
+						<i class="glyphicon glyphicon-tasks"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">学习任务</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="taskMenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_six" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="task2add" class="list-group-item">学习任务追加</li>
+					<li data-link="task2mgr" class="list-group-item">学习任务管理</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_seven">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#userMenuList" aria-expanded="true"
+						aria-controls="userMenuList">
+						<i class="glyphicon glyphicon-user"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">用户管理</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="userMenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_seven" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="user2search" class="list-group-item">账户查询</li>
+					<li data-link="user2permission" class="list-group-item">权限管理</li>
+					<li data-link="user2make" class="list-group-item">账户追加</li>
+					<li data-link="page_hashId_seven" class="list-group-item">账户管理</li>
+					<li data-link="user_role" class="list-group-item">角色管理</li>
+				</ul>
+			</div>
+		</li>
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_eight">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#sysMenuList" aria-expanded="true"
+						aria-controls="sysMenuList">
+						<i class="glyphicon glyphicon-cog"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">系统设置</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="sysMenuList" class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu"
+				role="tabpanel" aria-labelledby="page_hashId_eight" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="setting2appVersion" class="list-group-item">APP版本管理</li>
+					<li data-link="setting2fileServer" class="list-group-item">文件服务器设置</li>
+					<li data-link="transcoding" class="list-group-item">转码设置</li>
+					<li data-link="upload_catalog" class="list-group-item">上传目录</li>
+					<li data-link="setting2other" class="list-group-item">其他设置</li>
+				</ul>
+			</div>
+		</li>
+
+		<li class="panel panel-default">
+			<div class="panel-heading collapsed-mouse-enter-heading" role="tab" id="page_hashId_nine">
+				<h4 class="panel-title overflow-nowrap">
+					<a role="button" data-toggle="collapse" data-parent="#guide_tablist"
+						href="#resourceMenuList" aria-expanded="true"
+						aria-controls="resourceMenuList">
+						<i class="glyphicon glyphicon-leaf"></i>
+						<span class="title collapse-hidden collapsed-mouse-enter-heading-span">资源管理</span>
+						<span class="arrow glyphicon collapse-hidden"></span>
+					</a>
+				</h4>
+			</div>
+			<div id="resourceMenuList"
+				class="panel-collapse collapse collapse-hidden text-center collapsed-mouse-enter-sunMenu" role="tabpanel"
+				aria-labelledby="page_hashId_nine" aria-expanded="true">
+				<ul class="list-group">
+					<li data-link="resource2add" class="list-group-item">添加资源</li>
+					<li data-link="resource2mgr" class="list-group-item">资源管理</li>
+				</ul>
+			</div>
+		</li>
+ -->		</ul>
+	</div>
+</div>
